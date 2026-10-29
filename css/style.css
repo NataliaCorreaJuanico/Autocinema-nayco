@@ -20,7 +20,7 @@
     
     /* Estilos para el encabezado */
     .headernayco {
-    background: #aca796;
+    background: #d6ceb6;
     color: white;
     padding: 1rem 2rem;
     display: flex;
@@ -157,6 +157,7 @@
     text-decoration: none;
     transition: background 0.3s, border-color 0.3s;
     }
+    
     .btn:hover {
     background: transparent;
     color: #b9ddff;
