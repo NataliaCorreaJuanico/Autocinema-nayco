@@ -14,7 +14,7 @@
     body {
     line-height: 1.6; /* Define la altura de cada línea de texto, para que no esté muy apretado. */
     color: #333;
-    background-color: #3d6c9f;
+    background-color: #9fc2e7;
     font-family: 'Fredoka', sans-serif;
     }
     
@@ -157,7 +157,7 @@
     text-decoration: none;
     transition: background 0.3s, border-color 0.3s;
     }
-    
+
     .btn:hover {
     background: transparent;
     color: #b9ddff;
@@ -249,8 +249,8 @@
     width: 100%;
     height: 197px;
     object-fit:cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border-radius: 7px;
+    margin-bottom: 6px;
     }
     
     .combos-card figcaption {
@@ -299,6 +299,25 @@
     clear: both;
     display: table;
     }
+
+    /*Aside para las ferias, promociones y combos */
+
+ .promociones {
+  text-align: center;
+  background-color: #b9ddff;
+  padding: 50px 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  .promociones h3 {
+  color: #333;
+  margin-bottom: 40px;
+  }
+  
+  .promociones p {
+  margin-bottom: 10px;
+  }
 
       /* Pie de página (footer) */
   footer {

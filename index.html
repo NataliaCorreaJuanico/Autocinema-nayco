@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
   <link rel="stylesheet" href="css/style.css">
   <title>Autocinema nayco | peliculas al aire libre </title>
 </head>
 <body>
 
-    <header class="headernayco"> <!--Encabeza de mi página, IMPORTANTE!!! Considerar la class para darle estilo en el css-->
+    <header class="headernayco">
         <div class="logo">
           <img src="img/Logo.png" alt="Logo del negocio nayco" class="logo">
-
         </div>
         
         <nav class="nav">
@@ -25,10 +23,9 @@
             <li><a href="#inicio" class="nav-button">Inicio</a></li>
             <li><a href="#quienes-somos" class="nav-button">Autocinemas</a></li>
             <li><a href="#películas" class="nav-button">Comidas</a></li>
-            <li><a href="#combos" class="nav-button">Contacto</a></li>
+            <li><a href="#contacto-funnayco" class="nav-button">Contacto</a></li>
           </ul>
         </nav>
-      
     </header>
 
     <main>
@@ -45,145 +42,124 @@
               <p>Hacemos que disfrutes de tus películas favoritas de una manera única y diferente.</p>
       
              <div class="hero-buttons">
-              <a href="XXX" class="btn">Combos</a>
-              <a href="XXXX" class="btn">Películas y horarios</a>
+              <a href="https://www.autocinemacoyote.com/" class="btn">Otros</a>
+              <a href="https://dondeir.com/cine-y-tv/todos-los-autocinemas-en-cdmx-y-el-area-metropolitana/2020/07/" class="btn">Cartelera CDMX</a>
             </div>
+            </div>
+          </section>
+
+        <section id="combos" class="combos">
+            <h2>Autocinema</h2>
+            <div class="content">
+              <p>Somos un Autocinema con un equipo tecnologico y de iluminación avanzado y comodo para el entretenimiento de los clientes, al igual que tenemos un menú delicioso para que disfrutes acompañado de tus peliculas favoritas.</p>
+            </div>
+        </section>
+
+        <section id="películas" class="películas">
+            <h2> Conoce las películas y combos que tenemos este mes para ti </h2>
+            <div class="filter-buttons">
+              <button class="filter-btn" data-category="all">Todos</button>
+              <button class="filter-btn" data-category="combos">Combos</button>
+              <button class="filter-btn" data-category="peliculas">Películas</button>
+            </div>
+
+            <div id="región-container">
+                <figure class="combos-card" data-gender="peliculas">
+                    <img src="img/Foto2.jpeg" alt="Películas del mes, nombre: Películas">
+                    <figcaption>Cine desde tu carro</figcaption>
+                    <div class="card-description">
+                        <p>Aquí te mostramos que películas tenemos este mes al igual que combos de comida que manejamos para ti.</p>
+                    </div>
+                </figure>
+         
+                <figure class="combos-card" data-gender="combos">
+                    <img src="img/Foto1.jpeg" alt="Películas del mes, nombre: Películas">
+                    <figcaption>Combos con promociones</figcaption>
+                    <div class="card-description">
+                        <p>El autocinema ¨nayco¨ busca que nuestros clientes disfruten de un rato de entretenimiento viendo increíbles películas mientras disfrutan de nuestra rica comida.</p>
+                    </div>
+                </figure>
+           
+                <figure class="combos-card" data-gender="peliculas">
+                    <img src="img/foto9.jpeg" alt="Películas del mes, nombre: Películas">
+                    <figcaption>Películas para todas las edades</figcaption>
+                    <div class="card-description">
+                        <p>Cada mes cambiamos las películas para que puedas disfrutar de ellas, al igual que nos adaptamos a todas las edades.</p>
+                    </div>
+                </figure>
+
+                <figure class="combos-card" data-gender="combos">
+                    <img src="img/FOTO6.jpg" alt="Películas del mes, nombre: Películas">
+                    <figcaption>Menú</figcaption>
+                    <div class="card-description">
+                        <p>Ofrecemos un ampleo menú lleno de comidas y bebidas para todos los gustos</p>
+                    </div>
+                </figure>
             </div>
             
-          </section><!--Aquí termina todo lo del hero, donde esta mi video y los dos botones-->
-<!--INICIO DE LA SECCIÓN SOBRE NOSOTROS, Nuestra misión, quienes somos,etc-->
-<section id="combos" class="combos">
-    <h2>Autocinema</h2>
-    <div class="content">
-      <p>Somos un Autocinema con un equipo tecnologico y de iluminación avanzado y comodo para el entretenimiento de los clientes, al igual que tenemos un menú delicioso para que disfrutes acompañado de tus peliculas favoritas.</p>
-    </div>
-  </section>
-<!--Inicio de la sección de mi Autocinema con los programas y únete a mis proyectos -->
-      <section id="películas" class="películas">
-        <h2> Conoce las películas y combos que tenemos este mes para ti </h2>
-        <div class="filter-buttons">
-          <button class="filter-btn" data-category="all">Todos</button>
-          <button class="filter-btn" data-category="combos">Combos</button>
-          <button class="filter-btn active" data-category="peliculas">Películas</button>
-        </div>
+            <div id="región-container">
+                <figure class="combos-card" data-gender="peliculas">
+                    <img src="img/foto7.jpeg" alt="Películas del mes, nombre: Películas">
+                    <figcaption>Películas con horarios</figcaption>
+                    <div class="card-description">
+                        <p>Aquí puedes revisar nuestros horarios de cada película</p>
+                    </div>
+                </figure>
 
-        <!-- Aquí va la primera card-->
+                <figure class="combos-card" data-gender="combos">
+                    <img src="img/foto8.jpeg" alt="Películas del mes, nombre: Películas">
+                    <figcaption>Localización</figcaption>
+                    <div class="card-description">
+                        <p>Estamos ubicados en: Ubicación: C. Cerro de las Campanas 98, San Andres Atenco, 54040 Tlalnepantla, Méx.</p>
+                    </div>
+                </figure>
 
-        <div id="región-container">
-            <figure class="combos-card" data-gender="combos">
-                <img src="img/Foto2.jpeg" alt="Películas del mes, nombre: Películas">
-                <figcaption>
-                Cine desde tu carro 
-            </figcaption>
-                <div class="card-description">
-                    <p>Aquí te mostramos que películas tenemos este mes al igual que combos de comida que manejamos para ti.</p>
-                </div>
-            </figure>
-     
-<!--SEGUNDA TARJETA PARA MI OTRO PROYECTO-->
-            <figure class="combos-card" data-gender="combos">
-                <img src="img/Foto1.jpeg" alt="Películas del mes, nombre: Películas">
-                <figcaption>
-                Combos con promociones
-            </figcaption>
-                <div class="card-description">
-                    <p>
-                        El autocinema ¨nayco¨ busca que nuestros clientes disfruten de un rato de entretenimiento viendo increíbles películas 
-                        mientras disfrutan de nuestra rica comida.
-                    </p>
-                </div>
-            </figure>
-       
-<!-- La siguientes tarjetas para ÚNETE-->
+                <figure class="combos-card" data-gender="combos">
+                    <img src="img/Foto3.jpeg" alt="Películas del mes, nombre: Películas">
+                    <figcaption>Promociones amigos</figcaption>
+                    <div class="card-description">
+                        <p>Aquí puedes ver las promociones mensuales que tenemos para ti y tus amigos en tickets</p>
+                    </div>
+                </figure>
 
+                <figure class="combos-card" data-gender="peliculas">
+                    <img src="img/foto5.jpeg" alt="Películas del mes, nombre: Películas">
+                    <figcaption>Elige tu película</figcaption>
+                    <div class="card-description">
+                        <p>
+                            Por un precio especial puedes tu elegir la película del mes (pregunta por el precio y fechas)
+                        </p>
+                    </div>
+                </figure>
+            </div>
+        </section>
 
-    <figure class="combos-card" data-gender="películas">
-        <img src="img/foto9.jpeg" alt="Películas del mes, nombre: Películas">
-        <figcaption>
-        Películas para todas las edades
-    </figcaption>
-        <div class="card-description">
-            <p>Cada mes cambiamos las películas para que puedas disfrutar de ellas, al igual que nos adaptamos a todas las edades.</p>
-        </div>
-    </figure>
+        <!--Vamos a colocar -->
+
+        <div class="row">
+            <h3>Nuestros Servicios</h3>
+            <div class="column">
+              <img src="img/foto11.jpeg" alt="rest1" style="width:60%; height:15%;">
+            </div>
+            <div class="column">
+              <img src="img/foto12.jpeg" alt="rest2" style="width:60%; height:15%;">
+            </div>
+            <div class="column">
+              <img src="img/foto13.jpeg" alt="rest3" style="width:70%; height:15%;">
+            </div>  
+          </div>
 
 
-
- <!--TERCERA TARJETA PARA MI OTRO PROYECTO-->
-            <figure class="combos-card" data-gender="combos">
-                <img src="img/FOTO6.jpg" alt="Películas del mes, nombre: Películas">
-                <figcaption>
-                Menú
-            </figcaption>
-                <div class="card-description">
-                    <p>
-                        Ofrecemos un ampleo menú lleno de comidas y bebidas para todos los gustos
-                    </p>
-                </div>
-            </figure>
-        
-        </div>
-        
-    <!--CUARTA TARJETA PARA MI OTRO PROYECTO-->
-    <div id="región-container">
-            <figure class="combos-card" data-gender="combos">
-                <img src="img/foto7.jpeg" alt="Películas del mes, nombre: Películas">
-                <figcaption>
-                Películas con horarios
-            </figcaption>
-                <div class="card-description">
-                    <p>
-                        Aquí puedes revisar nuestros horarios de cada película 
-                    </p>
-                </div>
-            </figure>
-
-
-
-            <!--QUINTA TARJETA PARA MI OTRO PROYECTO-->
-            <figure class="combos-card" data-gender="combos">
-                <img src="img/foto8.jpeg" alt="Películas del mes, nombre: Películas">
-                <figcaption>
-                Localización
-            </figcaption>
-                <div class="card-description">
-                    <p>
-                        Estamos ubicados en:  Ubicación: C. Cerro de las Campanas 98, San Andres Atenco, 54040 Tlalnepantla, Méx.
-                    </p>
-                </div>
-            </figure>
-
-            <!--SEXTA TARJETA PARA MI OTRO PROYECTO-->
-            <figure class="combos-card" data-gender="combos">
-                <img src="img/Foto3.jpeg" alt="Películas del mes, nombre: Películas">
-                <figcaption>
-                Promociones amigos
-            </figcaption>
-                <div class="card-description">
-                    <p>
-                     Aquí puedes ver las promociones mensuales que tenemos para ti y tus amigos en tickets
-                    </p>
-                </div>
-            </figure>
-
-            <!--SEPTIMA TARJETA PARA MI OTRO PROYECTO-->
-            <figure class="combos-card" data-gender="combos">
-                <img src="img/foto10.jpeg" alt="Películas del mes, nombre: Películas">
-                <figcaption>
-                Elige tu película
-            </figcaption>
-                <div class="card-description">
-                    <p>
-                     Por un precio especial puedes tu elegir la película del mes (pregunta por el precio y fechas)
-                    </p>
-                </div>
-            </figure>
-    </div>
-           
     </main>
 
+    <aside class="promociones">
+        <h3>Próximas películas</h3>
+        <p>¡Durante todo el mes de<b> octubre</b>, a las 8pm tendremos estrenos exclusivos!</p>
+        <p>Todos los viernes,<span style="font-weight: bold; color: #6ba2cf"> 10%</span> de descuento en tus tickets.</p>
+      </aside>
 
-      <footer id="contacto-funnayco">
+
+    <footer id="contacto-funnayco">
         <div class="footer-grid">
             <div class="contacto">
               <h3>Contacto</h3>
@@ -214,10 +190,11 @@
             <button onclick="scrollToTop()" class="scroll-to-top-btn" aria-label="Volver al inicio de la página">
               <i class="fa fa-arrow-up"></i>
             </button>
-
-        <p class="copyright">&copy; 2026 Autocinema nayco. Todos los derechos reservados.</p>
+            <p class="copyright">&copy; 2026 Autocinema nayco. Todos los derechos reservados.</p>
           </div>
     </footer>
 
+    <!-- ENLACE AL JAVASCRIPT OBLIGATORIO -->
+    <script src="js/script.js"></script>
 </body>
 </html>
